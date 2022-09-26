@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 3rem;
+    position: relative;
+    height: 350px;
+    width: 350px;
+    border: 1px solid rgba(59,58,58,0.46);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: -10px 5px 10px gray;
+    top: 0;
+    transition: top ease 0.5s;
+}
+h1:active{
+    top: -50px;
+}
