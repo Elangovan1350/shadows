@@ -25,6 +25,7 @@ h1{
     box-shadow: -10px 5px 10px gray;
     top: 0;
     transition: top ease 0.5s;
+    user-select: none;
 }
 h1:active{
     top: -50px;
